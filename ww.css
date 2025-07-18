@@ -1,0 +1,76 @@
+      body {
+      background-color: #121212;
+      color: #e0e0e0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+    header {
+      text-align: center;
+      padding: 40px 20px 20px 20px;
+      border-bottom: 2px solid #333;
+    }
+    header h1 {
+      color: #8fbcbb;
+      font-size: 3rem;
+      margin-bottom: 5px;
+      text-shadow: 0 0 10px #8fbcbb;
+    }
+    header p {
+      font-style: italic;
+      color: #a0a0a0;
+      font-size: 1.2rem;
+      margin-top: 0;
+    }
+    main {
+      max-width: 800px;
+      margin: 40px auto;
+      background-color: #1f1f1f;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 0 15px #3b5998;
+    }
+    .profile-pic {
+      width: 180px;
+      height: 250px;
+      object-fit: cover;
+      float: right;
+      margin-left: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px #3b5998;
+    }
+    h2 {
+      color: #88c0d0;
+      margin-top: 0;
+    }
+    p {
+      font-size: 1.1rem;
+      line-height: 1.5;
+      color: #d8dee9;
+    }
+    .traits {
+      margin-top: 25px;
+    }
+    .traits ul {
+      list-style-type: square;
+      padding-left: 20px;
+    }
+    .traits li {
+      margin-bottom: 8px;
+      font-size: 1rem;
+    }
+    footer {
+      text-align: center;
+      padding: 30px 20px;
+      font-size: 0.9rem;
+      color: #555;
+      margin-top: 60px;
+      border-top: 1px solid #333;
+    }
+    @media (max-width: 600px) {
+      .profile-pic {
+        float: none;
+        display: block;
+        margin: 0 auto 20px auto;
+      }
+    }
